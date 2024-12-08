@@ -1,0 +1,184 @@
+body {
+    font-family: 'Times New Roman';
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #8400ff;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #ffdd57;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #8400ff;
+}
+
+#habilidades ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#habilidades ul li {
+    margin: 5px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #8400ff;
+    color: #fff;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #8400ff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background-color: #8400ff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+}
+
+img[alt="Yo"] {
+    max-width: 50%;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: block;
+}
+
+img[alt="Porsche"] {
+    max-width: 90%;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Esto fue agregado de ultimo minuto, pero considerelo un logo */
+.TituloConBellingol {
+    position: relative;
+    text-align: center;
+}
+
+.TituloConBellingol .Gol {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+}
+
+.TituloConBellingol .izquierda {
+    left: 10px; 
+}
+
+.TituloConBellingol .derecha {
+    right: 10px; 
+}
